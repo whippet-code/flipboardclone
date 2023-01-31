@@ -1,5 +1,7 @@
 ## Flipboard site clone
 
+Homage to [flipboard.com](www.flipboard.com)
+
 ### React app practise build
 
 HyperionDev Task 49 - Function Components
