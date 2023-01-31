@@ -6,8 +6,8 @@ import "./ComponentStyles.css";
 function Databar(props) {
   return (
     <div className="Databar">
-      <p>likes- {props.likes}</p>
-      <p>shares- {props.shares}</p>
+      <p>Likes {props.likes}</p>
+      <p>Shares {props.shares}</p>
     </div>
   );
 }

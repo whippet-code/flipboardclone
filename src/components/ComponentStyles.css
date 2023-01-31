@@ -113,6 +113,7 @@ hr {
   border: 1px solid lightgray;
   border-radius: 0.5rem;
   padding: 0.6rem;
+  padding-bottom: 0;
 }
 
 .Story img {
@@ -146,4 +147,14 @@ hr {
 .Databar {
   display: flex;
   justify-content: space-between;
+}
+
+/* Footernav */
+.Footernav {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  margin: 2rem auto;
+  font-size: 0.8rem;
+  text-decoration: underline;
 }
