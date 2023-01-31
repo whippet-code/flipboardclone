@@ -13,10 +13,11 @@ function App() {
   return (
     <div className="App">
       <Sticktop />
-      <div className="topSpalsh">
-        <h1>Inspired</h1>
-        <h1>Informed</h1>
-        <h3>All the best stories</h3>
+      <div className="topSplash">
+        <h1>GET INFORMED</h1>
+        <h1>GET INSPIRED</h1>
+        <hr></hr>
+        <h3>Stories Curated For You</h3>
         <button
           className="signUpButton"
           onClick={console.log("Called sign up")}

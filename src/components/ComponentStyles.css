@@ -1,0 +1,73 @@
+/* Stickytop styles */
+
+.stickyTop {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+.stickyTop img {
+  margin-top: 0.5rem;
+  height: 4.3vh;
+}
+
+.rightSide {
+  display: flex;
+}
+
+.rightSide a {
+  color: rgb(80,80,80);
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: auto 0 auto 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+
+.rightSide a:hover {
+  color: black;
+}
+
+input {
+  height: 2.5rem;
+  border: none;
+  text-overflow: 300;
+  background-color: rgba(240,240,240, 0.7);
+  padding: 1.5rem;
+  font-weight: 500;
+  font-stretch: normal;
+  color: black;
+  border-radius: 0.3rem;
+}
+
+button {
+  border: none;
+  padding: 0.35rem;
+  border-radius: 0.3rem;
+  margin: 0 0 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 5rem;
+}
+
+.signInButton {
+  color: black;
+  background: white;
+}
+
+.signUpButton {
+  background: rgb(245, 40, 40);
+  color: white;
+}
+
+.signUpButton:hover {
+  background: rgb(225, 25,25);
+}
+
+hr {
+  margin-top: -0.5rem;
+  color: rgba(0,0,0,0.3);
+}
+
