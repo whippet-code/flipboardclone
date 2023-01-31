@@ -3,8 +3,31 @@ import React from "react";
 //styles
 import "./ComponentStyles.css";
 
+//Components
+import Filter from "./Filter";
+
+// array for filter options (this could be built out to be objects or as route components)
+const filterTypes = [
+  "NEWS",
+  "ENTERTAINMENT",
+  "TECHNOLOGY",
+  "TRAVEL",
+  "FOOD",
+  "SPORTS",
+  "FLIPBOARD TV",
+];
+
 function Filters() {
-  return <h1>Filters</h1>;
+  return (
+    <>
+      <div className="filterBar">
+        {filterTypes.map((filter, i) => {
+          return <Filter filter={filter} key={i} />;
+        })}
+      </div>
+      <hr className="filtersLine"></hr>
+    </>
+  );
 }
 
 export default Filters;
