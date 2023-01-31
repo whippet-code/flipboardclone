@@ -3,6 +3,7 @@ import React from "react";
 //styles
 import "./ComponentStyles.css";
 
+// Top bar rendered
 function Sticktop() {
   return (
     <>

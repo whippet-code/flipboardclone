@@ -22,6 +22,7 @@ const navLinks = [
   "Sitemap",
 ];
 
+// Build out the footer nav bar with Footerlink components
 function Footernav() {
   return (
     <div className="Footernav">

@@ -4,6 +4,7 @@ import React from "react";
 import "./ComponentStyles.css";
 
 //props (link)
+// render a simple p with the link name
 function Footerlink(props) {
   return <p>{props.link}</p>;
 }

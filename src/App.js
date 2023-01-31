@@ -9,6 +9,8 @@ import "./App.css";
 
 // import componenets
 
+// Main display build, calling large components and building the splash area below topbar (no point doing as component as it is a one time item)
+
 function App() {
   return (
     <div className="App">
@@ -34,7 +36,9 @@ function App() {
         Read More
       </button>
       <Footernav />
-      <p className="copyright">&copy;2023 Flipboard</p>
+      <a href="https://flipboard.com/">
+        <p className="copyright">&copy;2023 Flipboard</p>
+      </a>
     </div>
   );
 }

@@ -17,6 +17,7 @@ const filterTypes = [
   "FLIPBOARD TV",
 ];
 
+// build out the filterbar with <Filter /> components for each entry in the array (use .map())
 function Filters() {
   return (
     <>

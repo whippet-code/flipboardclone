@@ -46,6 +46,8 @@ const story3 = new StoryObj(
 
 const storyArr = [story1, story2, story3];
 
+// main story card area with each card component called (story) from array (use .map())
+
 function Stories() {
   return (
     <div className="Stories">

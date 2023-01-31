@@ -8,6 +8,7 @@ import User from "./User";
 import Databar from "./Databar";
 
 // props in story(user, timeStamp, imageUrl, text, source, likes, shares)
+// Render each story card.
 function Story(props) {
   return (
     <div className="Story">
