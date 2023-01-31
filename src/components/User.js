@@ -3,8 +3,8 @@ import React from "react";
 //styles
 import "./ComponentStyles.css";
 
-function User() {
-  return <h1>User</h1>;
+function User(props) {
+  return <h1 className="User">{props.name}</h1>;
 }
 
 export default User;

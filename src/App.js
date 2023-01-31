@@ -34,7 +34,7 @@ function App() {
         Read More
       </button>
       <Footernav />
-      <p>&copy;2023 Flipboard</p>
+      <p className="copyright">&copy;2023 Flipboard</p>
     </div>
   );
 }

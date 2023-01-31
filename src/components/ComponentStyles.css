@@ -95,3 +95,55 @@ hr {
 .Filter:hover {
   color: black;
 }
+
+/* Stories */
+
+.Stories {
+  margin: 0 auto;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Story {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+}
+
+.Story img {
+  width: 25vw;
+  max-height: 35vh;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.Story h3 {
+  flex: 1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.Story p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  color: rgb(100,100,100);
+}
+
+/* User */
+
+.User {
+  font-size: 1rem;
+}
+
+/* Databar */
+.Databar {
+  display: flex;
+  justify-content: space-between;
+}
