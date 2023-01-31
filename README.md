@@ -1,6 +1,6 @@
 ## Flipboard site clone
 
-Homage to [flipboard.com](www.flipboard.com)
+Homage to [flipboard.com](http://www.flipboard.com)
 
 ### React app practise build
 
